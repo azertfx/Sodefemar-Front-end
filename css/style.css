@@ -1,0 +1,80 @@
+body{font-family: 'Lato', sans-serif;}
+img{max-width: 100%;}
+.clear{clear: both;}
+/*******************	navbar	*******************/
+nav.white ul li a{color:#333;}
+nav.white ul a:hover,nav.white ul a.active,nav.white ul li.active,nav.white ul li:hover{background-color:rgba(0,0,0,0);color:#ff4081;}
+nav.white .nav-wrapper a.brand-logo img{height: 45px;margin-top: 11px;}
+/*******************	info	*******************/
+.info{margin: 2rem 0 0.5rem;}
+.info h1{font-size: 1.3rem;font-weight: bold;color: #333;margin: 12px 0;}
+.info p{letter-spacing: .6px;color:#999;margin-top: 0;}
+.info a{color:#ff4081;margin-bottom: 20px;}
+.slider .indicators{display: none;}
+.slider{height: auto !important;}
+/*******************	Product	*******************/
+.product .title{border-left: 3px solid #ff4081;padding: 5px 0 5px 10px;margin-bottom: 25px;}
+.product .title h1{font-size: 1.5rem;color: #3f51b5;margin: 0 0 5px;}
+.product .title p{letter-spacing: .6px;color:#999;margin: 0;}
+.product ul.collapsible .collapsible-header{color:#3f51b5;padding-left: 40px;}
+.product ul.collapsible .collapsible-header img{width: 20px;position: absolute;margin-top: 13px;margin-left: -29px;}
+.product ul.collapsible .collapsible-body{padding: 0 12px;}
+.product ul.collapsible .collapsible-body h2{font-size: 1.2rem;color: #3f51b5;border-left: 2px solid #ff4081;padding: 2px 0 2px 6px;}
+.product ul.collapsible .collapsible-body h3{font-size:1.2rem;text-align: center;margin:0;}
+.product ul.collapsible .collapsible-body .card .card-image a img{position: absolute;}
+.product ul.collapsible .collapsible-body .card .card-content{box-shadow: 0px -2px 6px rgba(0,0,0,.1);position: relative;z-index: 9;}
+.product ul.collapsible {margin-bottom: 40px;}
+/*******************	Références	*******************/
+#references img{width: 134px;padding: 10px 30px;margin: 10px 9px 0;}
+#references div{text-align: center;}
+.owl-theme .owl-controls .owl-page span{background: #ff4081;}
+/*******************	Footer	*******************/
+footer .bg_footer{margin-top: 5px;padding: 10px;background: url('../imgs/footer.jpg') center bottom no-repeat;background-size: cover;}
+footer .row{margin: 0;}
+footer .row .col .card-panel{margin: 0;}
+footer .row .col .card-panel img{margin: 0 auto;display: block;}
+footer .row .col .card-panel p{letter-spacing: .6px;}
+footer .copy_right{background: #E0EFFF;color:#333;padding: .6rem 0;font-size: .9rem;}
+footer .copy_right .container .row .col:nth-child(2) span{text-align: right;display: block;}
+footer .copy_right .container .row{margin-bottom: 0;}
+footer .copy_right .container .row .col span a{color: #365CEC;font-weight: bold;}
+/*******************	Nos Agences	*******************/
+.agences{padding: 20px 0;background: url('../imgs/agences.jpg') center bottom no-repeat;background-size: cover;}
+.agences h1{font-size: 2rem;font-weight: bold;color: #fff;margin: 0;}
+.agences h1 span{font-weight: 100;}
+.apropos{margin-top: 30px;}
+.apropos h1,.services h1{font-size: 2rem;color: #3f51b5;margin-top:0;}
+.apropos h1::after,.services h1::after{content: "";width: 65px;height: 4px;background-color: #ff4081;display: block;margin-top: 8px;}
+.apropos p{font-size: 1.2rem;letter-spacing: .3px;color: #8A8A8A;}
+.services{padding: 2rem 0;text-align: center;background: #f1f1f1;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+.services i{font-size: 40px;color: #3f50b5;border: 1px solid #3f50b5;padding: 10px;border-radius: 5px;margin-bottom: 10px;}
+.services h1{text-align: left;margin: 0;}
+.services h2{margin: 6px 0;font-size: 1.3rem;}
+.services p{margin-bottom: 0;}
+.services .row{margin: 0;}
+.services .row .col{margin-top: 2rem;}
+/*******************	Articles	*******************/
+.article{width: 600px;margin: 20px auto;border-bottom: 1px solid #ccc;}
+.article h1,.autre_articles h1.a_title{margin: 15px 0 10px;font-size: 2rem;text-align: center;}
+.article p{font-size: 1.2rem;color: #7D7D7D;letter-spacing: .3px;}
+/*******************	Articles	*******************/
+.contact_bg{background: url('../imgs/agences.jpg') center bottom no-repeat;}
+#Sodefemar {height:400px;width:100%;}
+.gm-style-iw * {display: block;width: 100%;}
+.gm-style-iw h4, .gm-style-iw p {margin: 0;padding: 0;}
+.gm-style-iw a {color: #4272db;}
+/********************************************/
+/*************    responsive    *************/
+/********************************************/
+@media only screen and (max-width: 993px) {
+	nav.white .nav-wrapper a.brand-logo{right: -50%;text-align: right;}
+	.apropos{text-align: center;}
+	.apropos h1::after{margin: 8px auto 0;}
+	.article {width: 490px;}
+}
+@media only screen and (max-width: 600px) {
+	nav.white .nav-wrapper a.brand-logo img{height: 36px;}
+	footer .copy_right .container .row .col span{text-align: center !important;display: block;}
+	footer .row .col .card-panel p{text-align: center;}
+	.article {width: 100%;}
+}
